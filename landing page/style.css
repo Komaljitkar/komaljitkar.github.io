@@ -1,0 +1,146 @@
+
+
+@import url('https://www.fontsquirrel.com/fonts/poppins');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: 'poppins';
+}
+.navbar 
+{
+    height: 100px;
+    width:100%;
+    position:fixed;
+    background-color: white;
+}
+.navbar-brand
+{
+    color:black;
+    font-size: 30px;
+    margin-left:90px;
+    text-decoration: none;
+    line-height: 100px;
+}
+.navbar-brand:hover 
+{
+    color:blue;
+}
+.navbar-brand span 
+{
+    font-weight: bold;
+}
+.navbar ul li 
+{
+    padding: 15px 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 100px;
+}
+
+.navbar ul li a 
+{
+    font-size: 20px;
+    color:black;
+    font-family: 'poppins';
+}
+.navbar ul li a:hover 
+{
+    color:blue;
+}
+.txt 
+{
+    border-radius: 13px;
+    background-color:#eeeeee;
+    outline: none;
+    border:none;
+    cursor:pointer;
+    height:20px;
+    padding-bottom:10px;
+}
+.txt:hover 
+{
+    background-color: white;
+    border:1px solid #4b53e4;
+}
+.banner 
+{
+    position:relative;
+    background-image: url('../landing page/pic1.jpg');
+    height:800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.msg
+{
+    position: absolute;
+    top:25%;
+    left:10%;
+}
+.msg h1 span 
+{
+    font-size:75px;
+} 
+.msg h1
+{
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.msg p
+{
+    font-size: 20px;
+} 
+.btn 
+{
+    border-radius: 13px;
+    background-color:white;
+    color:#4b53e4;
+    font-weight:bolder;
+    
+}
+.btn:hover
+{
+    color:white;
+     background-color: black;
+}
+@media all and (max-width:1108px)
+{
+    .navbar-brand 
+    {
+        margin-left: 50px;
+    }
+    .navbar ul li 
+    {
+     padding:10px 10px;
+    }
+}
+@media all and (max-width:1000px)
+{
+    .navbar 
+  {
+    height:auto;
+    width:100%;
+    
+   }
+.navbar-brand
+{
+   height:60px;
+    line-height: 60px;
+}
+.navbar ul li 
+{
+    padding: 7px 5px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+} 
+    
+}
+       
