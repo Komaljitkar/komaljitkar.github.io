@@ -71,7 +71,7 @@ body {
 .banner 
 {
     position:relative;
-    background-image: url('../landing page-1/pic1.jpg');
+    background-image: url('https://github.com/Komaljitkar/komaljitkar.github.io/blob/main/pic1.jpg');
     height:800px;
     background-size: cover;
     background-position: center center;
